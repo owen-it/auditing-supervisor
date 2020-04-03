@@ -1,0 +1,48 @@
+{
+    "name": "owen-it/auditing-supervisor",
+    "description": "Supervisor for Laravel Auditing.",
+    "keywords": ["laravel", "auditing", "supervisor"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antério Vieria",
+            "email": "anteriovieira@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "laravel/framework": "^6.0|^7.0",
+        "moontoast/math": "^1.1",
+        "symfony/var-dumper": "^4.4|^5.0"
+    },
+    "require-dev": {
+        "ext-gd": "*",
+        "orchestra/testbench": "^4.0|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OwenIt\\AuditingSupervisor\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OwenIt\\AuditingSupervisor\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "OwenIt\\AuditingSupervisor\\SupervisorServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
