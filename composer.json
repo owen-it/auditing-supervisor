@@ -36,7 +36,7 @@
         },
         "laravel": {
             "providers": [
-                "OwenIt\\AuditingSupervisor\\SupervisorServiceProvider"
+                "OwenIt\\Auditing\\SupervisorServiceProvider"
             ]
         }
     },

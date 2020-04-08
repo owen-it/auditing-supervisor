@@ -1,11 +1,11 @@
 <?php
 
-namespace OwenIt\AuditingSupervisor;
+namespace OwenIt\Auditing;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 
-class AuditingSupervisorServiceProvider extends ServiceProvider {
+class SupervisorServiceProvider extends ServiceProvider {
   /**
    * Bootstrap any package services.
    *
